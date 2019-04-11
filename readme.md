@@ -2,6 +2,8 @@
 
 # Skyplus Eesti top 40 laulusõnade korpus 1994-2018
 
+Püsiv hoidla hetkel: [https://github.com/peeter-t2/EestiTop40_laulus6nad](https://github.com/peeter-t2/EestiTop40_laulus6nad)
+
 Andmestik sisaldab Sky Plus Eesti top 40 hulka jõudnud laulude sõnu. Top 40 on koostatud bändi päritolu järgi ja ei sisalda ainult eestikeelseid lugusid. Andmestik on mõeldud eelkõige lihtsama tekstitöötluse harjutamiseks.
 
 Nimistik on kogutud [Sky Plus aastahitt kodulehelt](https://r2.err.ee/881202/vaata-ja-kuula-uuesti-aastahitt-2018/912643) Andmed on kogutud [Sasslantisest](http://sasslantis.ee/) ning bändide kodulehtedelt.
