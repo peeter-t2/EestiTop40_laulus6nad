@@ -16,7 +16,7 @@ Nimistik on kogutud [Sky Plus aastahitt kodulehelt](https://r2.err.ee/881202/vaa
 - source - sõnade allikas (1 - Sasslantis, 2 - muu)
 - lyrics - laulusõnad
 
-Sõnad on olemas 822 edetabeli laulule tuhandest, sh 756 eraldi laulule (mõni laul sai tabelisse mitu aastat).
+Sõnad on olemas 822 edetabeli laulule tuhandest, sh 756 eraldi laulule (mõni laul sai tabelisse mitu aastat). 822 edetabeli laulust 686 on eesti keeles, 133 inglise keeles, 1 prantsuse, 1 hispaania ja 1 itaalia keeles.
 
 
 ## Viide

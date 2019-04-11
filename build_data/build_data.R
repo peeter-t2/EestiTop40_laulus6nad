@@ -7,12 +7,10 @@ laulud2 <- fread("data/top40_metadata.csv")
 
 filelist <- list.files("data/songs/",full.names=T)
 
-for (file in filelist){
-  
-contents <- read_lines(file)
-write_lines(contents,file)
-
-}
+#for (file in filelist){
+#contents <- read_lines(file)
+#write_lines(contents,file)
+#}
 
 texts <- map_df(filelist, ~ data_frame(txt = read_lines(.x)) %>%
                   mutate(filename = .x)) %>%
@@ -35,9 +33,18 @@ names(lyrics) <- c("filename","artist_title","year","keep","rank","votes","artis
 
 lyrics_clean <- lyrics[order(year,rank)][,.(year,rank,votes,artist,song,filename,source,lyrics)]
 
+
+lyrics_clean[,language:=cld2::detect_language(lyrics)]
+
+#tuvastamata on eesti
+#manual_langs <- lyrics_clean[is.na(language)&!is.na(lyrics)]
+lyrics_clean[is.na(language)&!is.na(lyrics),language:="et"]
+
+
 fwrite(lyrics_clean,"../eesti_skyplus_top40_1994-2018.tsv",sep="\t")
 
 #basic stats
 nrow(lyrics_clean[!is.na(lyrics)])
 nrow(unique(lyrics_clean[,.(filename)]))
-                     
+
+lyrics_clean[,.N,language]
