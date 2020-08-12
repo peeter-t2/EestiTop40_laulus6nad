@@ -20,14 +20,11 @@ Nimistik on kogutud [Sky Plus aastahitt kodulehelt](https://r2.err.ee/881202/vaa
 
 Sõnad on olemas 822 edetabeli laulule tuhandest, sh 756 eraldi laulule (mõni laul sai tabelisse mitu aastat). 822 edetabeli laulust 686 on eesti keeles, 133 inglise keeles, 1 prantsuse, 1 hispaania ja 1 itaalia keeles.
 
-### Uuendus 08.12.2020
-- Lisatud 2019. aasta edetabel ilma sõnadeta erldi failis, koostanud Kait Sepp.
-
 
 ## Viide
 
 Andmestikule saab viidata:
-- Tinits, Peeter (2019). SkyPlus Eesti top 40 laulusõnade korpus 1994-2018.
+- Tinits, Peeter (2019). SkyPlus Eesti top 40 laulusõnade korpus 1994-2018. https://dx.doi.org/10.5281/zenodo.3981111
 
 -----------------------
 
